@@ -26,7 +26,7 @@ DEF A1_CYL1 Solid {
   ]
 }
 DEF A2_CYL2 Solid {
-  translation 0.3 0.125 0
+  translation 0.3 0.125 -0.3
   children [
     Shape {
       appearance DEF A_2 PBRAppearance {
@@ -41,7 +41,7 @@ DEF A2_CYL2 Solid {
   name "solid(1)"
 }
 DEF A3_CYL3 Solid {
-  translation 0.6 0.15 0
+  translation 0.6 0.15 -0.6
   children [
     Shape {
       appearance DEF A_3 PBRAppearance {
