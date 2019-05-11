@@ -2,12 +2,26 @@
 WorldInfo {
 }
 Viewpoint {
-  orientation -0.21523508697102284 0.9733119846181475 0.07960928297164345 0.6398879737382154
-  position 1.6312787724339421 0.6473687326240817 2.552302728355898
+  orientation -0.3265753104264628 0.943159316968338 0.06163659169420029 0.1872489203453581
+  position 0.573532353045406 0.34609746162423005 2.634935042663778
 }
 TexturedBackground {
 }
 TexturedBackgroundLight {
 }
 Floor {
+}
+Solid {
+  translation 0 0.1 0
+  children [
+    Shape {
+      appearance DEF A_1 PBRAppearance {
+        baseColor 0.9372549019607843 0.1607843137254902 0.1607843137254902
+      }
+      geometry DEF G_CYL1 Cylinder {
+        height 0.2
+        radius 0.05
+      }
+    }
+  ]
 }
